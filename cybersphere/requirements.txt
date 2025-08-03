@@ -1,0 +1,63 @@
+# Core GUI and System Libraries
+tkinter==8.6
+psutil==5.9.0
+
+# Network Security Libraries
+scapy==2.4.5
+dnspython==2.2.1
+
+# Cryptography and Security
+cryptography==36.0.1
+pycryptodome==3.14.1
+
+# Data Management
+sqlite3==2.6.0
+
+# Utility Libraries
+requests==2.27.1
+pyperclip==1.8.2
+
+# Development and Testing
+pytest==7.1.2
+unittest2==1.1.0
+
+# Optional Dependencies
+pillow==9.1.0  # For image handling in notes
+matplotlib==3.5.2  # For network visualization (future enhancement)
+
+
+
+
+
+
+
+
+
++------------------+       +------------------+       +------------------+
+|   User Input     |       |  Authentication  |       |   Dashboard      |
+| (Login/Register) | ----> |   (SHA-256)      | ----> | (Tool Selection) |
++------------------+       +------------------+       +------------------+
+                                    |                           |
+                                    v                           v
++------------------+       +------------------+       +------------------+
+|   Login Page     |<----->|   User DB        |<----->|  Tool Modules    |
+|                  |       | (JSON/SQLite)    |       | (Keylogger,      |
++------------------+       +------------------+       |  ARP Spoofer,    |
+                                                      |  DNS Spoofer,    |
+                                                      |  Network Sniffer,|
+                                                      |  Password Gen,   |
+                                                      |  Secure Chat)    |
+                                                      +------------------+
+                                                                 |
+                                                                 v
+                                                      +------------------+
+                                                      |  Data Storage    |
+                                                      | (Encrypted Vault,|
+                                                      |  Chat Messages,  |
+                                                      |  Config Files)   |
+                                                      +------------------+
+
+
+
+
+                                                      
